@@ -120,4 +120,14 @@ h1 span {
 .photo {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 2%;
+    margin-bottom: 159px;
+
+
+}
+
+.photo img {
+    margin-left: 4px;
+    margin-bottom: 3px;
+    width: 24%;
 }
