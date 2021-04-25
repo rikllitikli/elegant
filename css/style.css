@@ -4,27 +4,25 @@
 }
 
 header {
+    position: absolute;
+    width: 100%;
+    padding-top: 16px;
+
+}
+
+.container {
     max-width: 1185px;
     margin: auto;
-}
-
-
-header div {
-    position: absolute;
-    padding-top: 16px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
 
+}
 
 header div a {
     display: inline-block;
 }
 
 .menu {
-    position: relative;
-    left: 925px;
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -41,7 +39,7 @@ header div a {
     margin-bottom: 80px;
 }
 
-.background  h1{
+.background h1 {
     text-align: center;
     color: white;
     font-size: 80px;
@@ -70,10 +68,11 @@ h1 span {
     font-family: 'Open Sans';
     font-weight: 600;
     margin-bottom: 22px;
+    text-align: center;
 }
 
 .About_Yourself h2 {
-    color: #021725;
+    color: #747a7f;
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 44px;
@@ -96,17 +95,9 @@ h1 span {
     color: #021725;
     font-family: 'Open Sans';
     font-weight: 300;
+    font-size: 14px;
 }
 
-.question {
-    font-size: 13px;
-    color: #d4af37;
-    text-transform: uppercase;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    margin-bottom: 22px;
-    text-align: center;
-}
 
 .work h2 {
     color: #747a7f;
@@ -138,15 +129,6 @@ h1 span {
     margin-bottom: 165px;
 }
 
-.question {
-    font-size: 13px;
-    color: #d4af37;
-    text-transform: uppercase;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    margin-bottom: 22px;
-    text-align: center;
-}
 
 .people h2 {
     color: #747a7f;
@@ -196,7 +178,7 @@ h1 span {
     margin-bottom: 37px;
 }
 
-.Tobias_Schneider p{
+.Tobias_Schneider p {
     color: #747a7f;
     font-size: 13px;
     font-family: 'Open Sans';
@@ -211,3 +193,109 @@ h1 span {
     margin: auto;
 }
 
+.last_post h2 {
+    color: #747a7f;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 44px;
+    margin-bottom: 57px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 84px;
+}
+
+.last_post img {
+    display: inline-block;
+}
+
+.We_Like_to_Write {
+    background-color: #f9f9f9;
+    padding: 43px 40px 50px;
+    display: inline-block;
+    position: relative;
+    right: 3px;
+    max-width: 299px;
+    magin: auto;
+}
+
+.data {
+    color: #505d68;
+    font-size: 13px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.Your_space {
+    color: #505d68;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    margin-bottom: 33px;
+}
+
+.We_Like_to_Write p {
+    color: #505d68;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    margin-bottom: 58px;
+    line-height: 28px;
+}
+
+.button_read {
+    border: solid 1px black;
+    padding: 18px 46px;
+    text-decoration: none;
+    color: #505d68;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.button_More_From_Our_Blog {
+    text-align: center;
+    margin-bottom: 162px;
+}
+
+.button_More_From_Our_Blog a {
+    text-decoration: none;
+    border: solid 1px black;
+    padding: 23px 50px;
+    color: #505d68;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.contact h2{
+    color: #747a7f;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 44px;
+    margin-bottom: 57px;
+    text-align: center;
+}
+
+footer {
+    background-color: #eeeeee;
+    padding: 41px 0 39px;
+}
+
+.footer {
+    max-width: 770px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    color: #505d68;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
