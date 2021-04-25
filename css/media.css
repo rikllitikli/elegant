@@ -65,6 +65,7 @@
     font-size: 27px;
 }
 
+
 .work h2 {
     color: #747a7f;
     font-family: 'Open Sans';
@@ -84,7 +85,7 @@
 }
 
 .people {
-    max-width: 714px;
+    max-width: 674px;
     margin: auto;
     margin-bottom: 304px;
 }
@@ -96,6 +97,15 @@
     font-size: 90px;
     margin-bottom: 83px;
 }
+
+    .The_Amazing_People_Behind_This {
+        color: #747a7f;
+        font-size: 29px;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        line-height: 53px;
+        margin-bottom: 68px;
+    }
 
     .Photo_name {
         display: block;
@@ -130,12 +140,89 @@
         font-size: 29px;
         font-family: 'Open Sans';
         font-weight: 300;
-        line-height: 40px;
+        line-height: 53px;
         max-width: 571px;
+        margin: auto;
+        position: relative;
+    }
+
+    .Tobias_Schneider {
+        background-color: #f9f9f9;
+        padding: 38px 30px 97px;
+        margin-bottom: 60px;
+    }
+
+    .last_post {
+        max-width: 680px;
         margin: auto;
     }
 
+    .last_post h2 {
+        color: #747a7f;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 90px;
+        margin-bottom: 83px;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .flex img {
+        width: 100%;
+    }
+
+    .We_Like_to_Write {
+        padding: 83px 70px;
+        margin-bottom: 77px;
+
+    }
+
+    .data {
+        font-size: 28px;
+        margin-bottom: 37px;
+    }
+
+    .Your_space {
+        font-size: 60px;
+        margin-bottom: 66px;
+    }
+
+    .We_Like_to_Write p {
+        font-size: 29px;
+        margin-bottom: 97px;
+        line-height: 53px;
+    }
+
+    .button_read {
+        padding: 35px 90px;
+        font-size: 29px;
+        font-family: 'Open Sans';
+        font-weight: 300;
+    }
+
+    .button_More_From_Our_Blog {
+        margin-bottom: 305px;
+    }
 
 
+    .button_More_From_Our_Blog a {
+        padding: 43px 90px;
+        font-size: 30px;
+    }
+
+    .contact h2{
+        font-size: 90px;
+        margin-bottom: 102px;
+    }
+.footer {
+    display: block;
+}
+
+    .footer p {
+        font-size: 30px;
+        line-height: 60px;
+    }
 
 }

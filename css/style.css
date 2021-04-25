@@ -186,6 +186,7 @@ h1 span {
     line-height: 25px;
     max-width: 207px;
     margin: auto;
+    padding-right: 15%;
 }
 
 .last_post {
@@ -218,8 +219,7 @@ h1 span {
     display: inline-block;
     position: relative;
     right: 3px;
-    max-width: 299px;
-    magin: auto;
+
 }
 
 .data {
