@@ -226,3 +226,48 @@
     }
 
 }
+
+@media only screen and (max-width: 360px) {
+   .background h1 {
+       font-size: 55px;
+   }
+    .About_Yourself h2 {
+        font-size: 44px;
+    }
+
+    .Tell_The_World_About_Yourself {
+        font-size: 18px;
+    }
+    .button {
+        padding: 23px 48px;
+    }
+    .question {
+        font-size: 13px;
+    }
+
+    .work h2 {
+        font-size: 44px;
+    }
+
+    .people h2 {
+        font-size: 44px;
+    }
+
+    .The_Amazing_People_Behind_This {
+        font-size: 18px;
+    }
+
+    .last_post h2 {
+        font-size: 44px;
+    }
+.contact h2 {
+    font-size: 44px;
+}
+    .button_More_From_Our_Blog a {
+        font-size: 28px;
+        padding: 23px 48px;
+    }
+.footer p {
+    font-size: 16px;
+}
+}
