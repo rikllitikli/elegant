@@ -63,7 +63,7 @@ h1 span {
     margin-bottom: 163px;
 }
 
-.About_Yourself h3 {
+.question {
     font-size: 13px;
     color: #d4af37;
     text-transform: uppercase;
@@ -80,7 +80,7 @@ h1 span {
     margin-bottom: 55px;
 }
 
-.About_Yourself p {
+.Tell_The_World_About_Yourself {
     color: #747a7f;
     font-size: 18px;
     font-family: 'Open Sans';
@@ -98,7 +98,7 @@ h1 span {
     font-weight: 300;
 }
 
-.work h3 {
+.question {
     font-size: 13px;
     color: #d4af37;
     text-transform: uppercase;
@@ -131,3 +131,83 @@ h1 span {
     margin-bottom: 3px;
     width: 24%;
 }
+
+.people {
+    max-width: 770px;
+    margin: auto;
+    margin-bottom: 165px;
+}
+
+.question {
+    font-size: 13px;
+    color: #d4af37;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.people h2 {
+    color: #747a7f;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 44px;
+    margin-bottom: 57px;
+    text-align: center;
+}
+
+.The_Amazing_People_Behind_This {
+    color: #747a7f;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    line-height: 33px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.Photo_name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tobias_Schneider {
+    background-color: #f9f9f9;
+    padding: 20px 17px 48px;
+    position: relative;
+    bottom: 4px;
+}
+
+.Tobias_Schneider h4 {
+    font-size: 13px;
+    color: #d4af37;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+
+.Tobias_Schneider h3 {
+    color: #747a7f;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 21px;
+    margin-bottom: 37px;
+}
+
+.Tobias_Schneider p{
+    color: #747a7f;
+    font-size: 13px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    line-height: 25px;
+    max-width: 207px;
+    margin: auto;
+}
+
+.last_post {
+    max-width: 770px;
+    margin: auto;
+}
+
