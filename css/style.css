@@ -272,6 +272,11 @@ h1 span {
     font-weight: 300;
 }
 
+.contact {
+    max-width: 767px;
+    margin: auto;
+}
+
 .contact h2{
     color: #747a7f;
     font-family: 'Open Sans';
@@ -279,6 +284,47 @@ h1 span {
     font-size: 44px;
     margin-bottom: 57px;
     text-align: center;
+}
+
+.map {
+    position: relative;
+    max-width: 767px;
+    height: 295px;
+}
+
+.feedback {
+    background-color: #f9f9f9;
+    padding: 52px 0 47px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.feedback_data {
+    width: 50%;
+    text-align: center;
+}
+
+.feedback .feedback_data:nth-child(2) {
+    margin-bottom: 97px;
+}
+
+h4 {
+    font-size: 13px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #505d68;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 19px;
+    color: #505d68;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    line-height: 34px;
 }
 
 footer {
