@@ -1,14 +1,11 @@
-
-
-
 @media only screen and (max-width: 750px) {
 
-    header {
+    .inex_header {
         background-color: rgb(36, 47, 53, 70%);
         padding: 14px 0 18px;
     }
 
-    .container {
+    .inex_container {
         max-width: 714px;
         margin: auto;
     }
@@ -17,7 +14,7 @@
         display: none;
     }
 
-    .background {
+    .inex_background {
         background-image: url("../img/img_for_mobile.jpg");
         width: 100%;
         height: 100vh;
@@ -27,78 +24,26 @@
 
     }
 
-.About_Yourself {
-    max-width: 675px;
-    margin: auto;
-    margin-bottom: 304px;
-}
+    .inex_About_Yourself {
+        max-width: 675px;
+        margin: auto;
+        margin-bottom: 304px;
+    }
 
-.question {
-    font-size: 28px;
-    margin-bottom: 38px;
-}
+    .inex_question {
+        font-size: 28px;
+        margin-bottom: 38px;
+    }
 
-.About_Yourself h2 {
-    color: #747a7f;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 90px;
-    margin-bottom: 83px;
-}
+    .inex_About_Yourself h2 {
+        color: #747a7f;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 90px;
+        margin-bottom: 83px;
+    }
 
-.Tell_The_World_About_Yourself {
-    color: #747a7f;
-    font-size: 29px;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    line-height: 53px;
-    margin-bottom: 68px;
-}
-
-.button {
-    border: solid 1px black;
-    padding: 44px 90px;
-    text-decoration: none;
-    color: #021725;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-size: 27px;
-}
-
-
-.work h2 {
-    color: #747a7f;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 90px;
-    margin-bottom: 83px;
-}
-
-.photo {
-    display: block;
-}
-
-.photo img {
-    display: block;
-    width: 100%;
-
-}
-
-.people {
-    max-width: 674px;
-    margin: auto;
-    margin-bottom: 304px;
-}
-
-.people h2 {
-    color: #747a7f;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 90px;
-    margin-bottom: 83px;
-}
-
-    .The_Amazing_People_Behind_This {
+    .inex_Tell_The_World_About_Yourself {
         color: #747a7f;
         font-size: 29px;
         font-family: 'Open Sans';
@@ -107,35 +52,86 @@
         margin-bottom: 68px;
     }
 
-    .Photo_name {
+    .inex_button {
+        border: solid 1px black;
+        padding: 44px 90px;
+        text-decoration: none;
+        color: #021725;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 27px;
+    }
+
+
+    .inex_work h2 {
+        color: #747a7f;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 90px;
+        margin-bottom: 83px;
+    }
+
+    .inex_photo {
+        display: block;
+    }
+
+    .inex_photo img {
+        display: block;
+        width: 100%;
+
+    }
+
+    .inex_people {
+        max-width: 674px;
+        margin: auto;
+        margin-bottom: 304px;
+    }
+
+    .inex_people h2 {
+        color: #747a7f;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 90px;
+        margin-bottom: 83px;
+    }
+
+    .inex_The_Amazing_People_Behind_This {
+        color: #747a7f;
+        font-size: 29px;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        line-height: 53px;
+        margin-bottom: 68px;
+    }
+
+    .inex_Photo_name {
         display: block;
 
     }
 
-    .Photo_name div img {
+    .inex_Photo_name div img {
         width: 100%;
     }
 
 
+    .inex_Tobias_Schneider h4 {
+        font-size: 29px;
+        color: #d4af37;
+        text-transform: uppercase;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        margin-bottom: 42px;
+    }
 
-.Tobias_Schneider h4 {
-    font-size: 29px;
-    color: #d4af37;
-    text-transform: uppercase;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    margin-bottom: 42px;
-}
+    .inex_Tobias_Schneider h3 {
+        color: #747a7f;
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size: 40px;
+        margin-bottom: 68px;
+    }
 
-.Tobias_Schneider h3 {
-    color: #747a7f;
-    font-family: 'Open Sans';
-    font-weight: normal;
-    font-size: 40px;
-    margin-bottom: 68px;
-}
-
-    .Tobias_Schneider p {
+    .inex_Tobias_Schneider p {
         color: #747a7f;
         font-size: 29px;
         font-family: 'Open Sans';
@@ -146,18 +142,18 @@
         position: relative;
     }
 
-    .Tobias_Schneider {
+    .inex_Tobias_Schneider {
         background-color: #f9f9f9;
         padding: 38px 30px 97px;
         margin-bottom: 60px;
     }
 
-    .last_post {
+    .inex_last_post {
         max-width: 680px;
         margin: auto;
     }
 
-    .last_post h2 {
+    .inex_last_post h2 {
         color: #747a7f;
         font-family: 'Open Sans';
         font-weight: 600;
@@ -165,62 +161,126 @@
         margin-bottom: 83px;
     }
 
-    .flex {
+    .inex_flex {
         display: block;
     }
 
-    .flex img {
+    .inex_flex img {
         width: 100%;
     }
 
-    .We_Like_to_Write {
+    .inex_We_Like_to_Write {
         padding: 83px 55px;
         margin-bottom: 77px;
 
     }
 
-    .data {
+    .inex_data {
         font-size: 28px;
         margin-bottom: 37px;
     }
 
-    .Your_space {
+    .inex_Your_space {
         font-size: 60px;
         margin-bottom: 66px;
     }
 
-    .We_Like_to_Write p {
+    .inex_We_Like_to_Write p {
         font-size: 29px;
         margin-bottom: 97px;
         line-height: 53px;
     }
 
-    .button_read {
+    .inex_button_read {
         padding: 35px 90px;
         font-size: 29px;
         font-family: 'Open Sans';
         font-weight: 300;
     }
 
-    .button_More_From_Our_Blog {
+    .inex_button_More_From_Our_Blog {
         margin-bottom: 305px;
     }
 
 
-    .button_More_From_Our_Blog a {
+    .inex_button_More_From_Our_Blog a {
         padding: 43px 90px;
         font-size: 30px;
     }
 
-    .contact h2{
+    .inex_contact h2 {
         font-size: 90px;
         margin-bottom: 102px;
     }
-.footer {
-    display: block;
-}
+
+    .footer {
+        display: block;
+    }
 
     .footer p {
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+
+
+
+
+    .about_header {
+        background-color: rgb(36, 47, 53, 70%);
+        padding: 14px 0 18px;
+    }
+
+    .about_paragraph {
+        font-size: 35px;
+        max-width: 687px;
+        margin: auto;
+        line-height: 46px;
+        margin-bottom: 303px;
+    }
+
+    .about_service {
+        display: block;
+    }
+
+    .about_service img {
+        width: 100%;
+    }
+
+    .about_service_content {
+        width: auto;
+        padding: 90px 86px 88px;
+        background: none;
+    }
+
+    .about_flex {
+        display: block;
+    }
+
+    .about_service_content h2 {
+        font-size: 84px;
+        margin-bottom: 176px;
+    }
+
+    .about_service_paragraph {
+        display: block;
+        font-size: 31px;
+        line-height: 56px;
+        max-width: 573px;
+        margin: auto;
+        margin-bottom: 176px;
+    }
+
+    .about_list {
+        font-size: 34px;
+        line-height: 57px;
+    }
+
+    .about_footer {
+        display: block;
+    }
+
+    .about_footer p {
         font-size: 30px;
         line-height: 60px;
     }
@@ -228,46 +288,68 @@
 }
 
 @media only screen and (max-width: 360px) {
-   .background h1 {
-       font-size: 55px;
-   }
-    .About_Yourself h2 {
+    .inex_background h1 {
+        font-size: 55px;
+    }
+
+    .inex_About_Yourself h2 {
         font-size: 44px;
     }
 
-    .Tell_The_World_About_Yourself {
+    .inex_Tell_The_World_About_Yourself {
         font-size: 18px;
     }
-    .button {
+
+    .inex_button {
         padding: 23px 48px;
     }
-    .question {
+
+    .inex_question {
         font-size: 13px;
     }
 
-    .work h2 {
+    .inex_work h2 {
         font-size: 44px;
     }
 
-    .people h2 {
+    .inex_people h2 {
         font-size: 44px;
     }
 
-    .The_Amazing_People_Behind_This {
+    .inex_The_Amazing_People_Behind_This {
         font-size: 18px;
     }
 
-    .last_post h2 {
+    .inex_last_post h2 {
         font-size: 44px;
     }
-.contact h2 {
-    font-size: 44px;
-}
-    .button_More_From_Our_Blog a {
+
+    .inex_contact h2 {
+        font-size: 44px;
+    }
+
+    .inex_button_More_From_Our_Blog a {
         font-size: 28px;
         padding: 23px 48px;
     }
-.footer p {
-    font-size: 16px;
+
+    .inex_footer p {
+        font-size: 16px;
+    }
+
+    .inex_feedback_data p {
+        font-size: 12px;
+    }
+
+    .inex_map_class {
+        margin-bottom: 30px;
+    }
+
+    .footer p {
+        font-size: 14px;
+        line-height: 60px;
+    }
 }
-}
+
+
+

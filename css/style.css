@@ -3,14 +3,14 @@
     padding: 0;
 }
 
-header {
+.inex_header {
     position: absolute;
     width: 100%;
     padding-top: 16px;
 
 }
 
-.container {
+.inex_container {
     max-width: 1185px;
     margin: auto;
     display: flex;
@@ -19,7 +19,7 @@ header {
 
 }
 
-header div a {
+.inex_header div a {
     display: inline-block;
 }
 
@@ -31,7 +31,7 @@ header div a {
     font-weight: 600;
 }
 
-.background {
+.inex_background {
     background-image: url("../img/back.jpg");
     width: 100%;
     height: 100vh;
@@ -44,7 +44,7 @@ header div a {
     align-items: center;
 }
 
-.background h1 {
+.inex_background h1 {
     text-align: center;
     color: white;
     font-size: 80px;
@@ -52,19 +52,19 @@ header div a {
     font-weight: 300;
 }
 
-h1 span {
+.inex_background h1 span {
     font-family: 'Open Sans';
     font-style: italic;
 }
 
-.About_Yourself {
+.inex_About_Yourself {
     max-width: 770px;
     margin: auto;
     text-align: center;
     margin-bottom: 163px;
 }
 
-.question {
+.inex_question {
     font-size: 13px;
     color: #d4af37;
     text-transform: uppercase;
@@ -74,7 +74,7 @@ h1 span {
     text-align: center;
 }
 
-.About_Yourself h2 {
+.inex_About_Yourself h2 {
     color: #747a7f;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -82,7 +82,7 @@ h1 span {
     margin-bottom: 55px;
 }
 
-.Tell_The_World_About_Yourself {
+.inex_Tell_The_World_About_Yourself {
     color: #747a7f;
     font-size: 18px;
     font-family: 'Open Sans';
@@ -91,7 +91,7 @@ h1 span {
     margin-bottom: 46px;
 }
 
-.button {
+.inex_button {
     border: solid 1px black;
     padding: 23px 48px;
     text-decoration: none;
@@ -102,7 +102,7 @@ h1 span {
 }
 
 
-.work h2 {
+.inex_work h2 {
     color: #747a7f;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -111,7 +111,7 @@ h1 span {
     text-align: center;
 }
 
-.photo {
+.inex_photo {
     display: flex;
     flex-wrap: wrap;
     padding-left: 2%;
@@ -120,20 +120,20 @@ h1 span {
 
 }
 
-.photo img {
+.inex_photo img {
     margin-left: 4px;
     margin-bottom: 3px;
     width: 24%;
 }
 
-.people {
+.inex_people {
     max-width: 770px;
     margin: auto;
     margin-bottom: 165px;
 }
 
 
-.people h2 {
+.inex_people h2 {
     color: #747a7f;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -142,7 +142,7 @@ h1 span {
     text-align: center;
 }
 
-.The_Amazing_People_Behind_This {
+.inex_The_Amazing_People_Behind_This {
     color: #747a7f;
     font-size: 18px;
     font-family: 'Open Sans';
@@ -152,19 +152,19 @@ h1 span {
     text-align: center;
 }
 
-.Photo_name {
+.inex_Photo_name {
     display: flex;
     justify-content: space-between;
 }
 
-.Tobias_Schneider {
+.inex_Tobias_Schneider {
     background-color: #f9f9f9;
     padding: 20px 17px 48px;
     position: relative;
     bottom: 4px;
 }
 
-.Tobias_Schneider h4 {
+.inex_Tobias_Schneider h4 {
     font-size: 13px;
     color: #d4af37;
     text-transform: uppercase;
@@ -173,7 +173,7 @@ h1 span {
     margin-bottom: 21px;
 }
 
-.Tobias_Schneider h3 {
+.inex_Tobias_Schneider h3 {
     color: #747a7f;
     font-family: 'Open Sans';
     font-weight: normal;
@@ -181,7 +181,7 @@ h1 span {
     margin-bottom: 37px;
 }
 
-.Tobias_Schneider p {
+.inex_Tobias_Schneider p {
     color: #747a7f;
     font-size: 13px;
     font-family: 'Open Sans';
@@ -192,12 +192,12 @@ h1 span {
     padding-right: 15%;
 }
 
-.last_post {
+.inex_last_post {
     max-width: 770px;
     margin: auto;
 }
 
-.last_post h2 {
+.inex_last_post h2 {
     color: #747a7f;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -206,7 +206,7 @@ h1 span {
     text-align: center;
 }
 
-.flex {
+.inex_flex {
     display: flex;
     justify-content: space-between;
     margin-bottom: 84px;
@@ -216,7 +216,7 @@ h1 span {
     display: inline-block;
 }
 
-.We_Like_to_Write {
+.inex_We_Like_to_Write {
     background-color: #f9f9f9;
     padding: 43px 40px 50px;
     display: inline-block;
@@ -225,7 +225,7 @@ h1 span {
 
 }
 
-.data {
+.inex_data {
     color: #505d68;
     font-size: 13px;
     font-family: 'Open Sans';
@@ -233,7 +233,7 @@ h1 span {
     margin-bottom: 20px;
 }
 
-.Your_space {
+.inex_Your_space {
     color: #505d68;
     font-size: 30px;
     font-family: 'Open Sans';
@@ -241,7 +241,7 @@ h1 span {
     margin-bottom: 33px;
 }
 
-.We_Like_to_Write p {
+.inex_We_Like_to_Write p {
     color: #505d68;
     font-size: 16px;
     font-family: 'Open Sans';
@@ -250,7 +250,7 @@ h1 span {
     line-height: 28px;
 }
 
-.button_read {
+.inex_button_read {
     border: solid 1px black;
     padding: 18px 46px;
     text-decoration: none;
@@ -260,12 +260,12 @@ h1 span {
     font-weight: 300;
 }
 
-.button_More_From_Our_Blog {
+.inex_button_More_From_Our_Blog {
     text-align: center;
     margin-bottom: 162px;
 }
 
-.button_More_From_Our_Blog a {
+.inex_button_More_From_Our_Blog a {
     text-decoration: none;
     border: solid 1px black;
     padding: 23px 50px;
@@ -275,12 +275,12 @@ h1 span {
     font-weight: 300;
 }
 
-.contact {
+.inex_contact {
     max-width: 767px;
     margin: auto;
 }
 
-.contact h2{
+.inex_contact h2{
     color: #747a7f;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -289,13 +289,13 @@ h1 span {
     text-align: center;
 }
 
-.map {
+.inex_map {
     position: relative;
     max-width: 767px;
     height: 295px;
 }
 
-.feedback {
+.inex_feedback {
     background-color: #f9f9f9;
     padding: 52px 0 47px;
     width: 100%;
@@ -305,16 +305,16 @@ h1 span {
     flex-wrap: wrap;
 }
 
-.feedback_data {
+.inex_feedback_data {
     width: 50%;
     text-align: center;
 }
 
-.feedback .feedback_data:nth-child(2) {
+.inex_feedback .inex_feedback_data:nth-child(2) {
     margin-bottom: 97px;
 }
 
-h4 {
+.inex_map_class {
     font-size: 13px;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -322,7 +322,7 @@ h4 {
     margin-bottom: 50px;
 }
 
-p {
+.inex_feedback_data p {
     font-size: 19px;
     color: #505d68;
     font-family: 'Open Sans';
@@ -348,3 +348,109 @@ footer {
     font-family: 'Open Sans';
     font-weight: 300;
 }
+
+
+
+
+
+
+
+.about_header {
+    position: absolute;
+    width: 100%;
+    padding-top: 16px;
+
+}
+
+.about_container {
+    max-width: 1185px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.about_header div a {
+    display: inline-block;
+}
+
+.about_background {
+    background-image: url("../img/back_about.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 166px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.id {
+    padding-bottom: 55px;
+}
+
+.about_paragraph {
+    max-width: 770px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    color: #021725;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 160px;
+}
+
+.about_service {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.about_service_content {
+    background-color: #f9f9f9;
+    display: inline-block;
+    padding: 48px 57px 52px;
+    width: 100%;
+}
+
+.about_service h2 {
+    color: #505d68;
+    font-size: 45px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    margin-bottom: 92px;
+}
+
+.about_service_paragraph {
+    font-size: 17px;
+    line-height: 28px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    max-width: 208px;
+    display: inline-block;
+}
+
+
+
+.about_list {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 28px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.about_list ul {
+    list-style: none;
+}
+
+.about_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
