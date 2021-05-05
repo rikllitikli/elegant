@@ -404,6 +404,8 @@ footer {
 }
 
 .about_service {
+    position: relative;
+    top: 5px;
     display: flex;
     align-items: center;
 }
@@ -415,6 +417,8 @@ footer {
     display: inline-block;
     padding: 48px 57px 52px;
     width: 100%;
+    position: relative;
+    bottom: 1px;
 }
 
 .about_service h2 {
