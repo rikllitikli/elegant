@@ -355,6 +355,7 @@ footer {
 
 
 
+
 .about_header {
     position: absolute;
     width: 100%;
@@ -620,3 +621,142 @@ footer {
     border: solid 1px black;
     padding: 22px 54px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.contact_header {
+    position: absolute;
+    width: 100%;
+    padding-top: 16px;
+
+}
+
+.contact_container {
+    max-width: 1185px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.contact_header div a {
+    display: inline-block;
+}
+
+.contact_background {
+    background-image: url("../img/contact_back.jpg");
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 128px;
+}
+
+.contact_section {
+    max-width: 770px;
+    margin: auto;
+
+}
+
+.contact_section h3 {
+    text-align: center;
+    color: #d4af37;
+    font-size: 13px;
+    margin-bottom: 24px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+.contact_section h2 {
+    color: #747a7f;
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 87px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.contact_flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 99px;
+}
+
+.contact_country {
+    font-size: 23px;
+    color: white;
+    line-height: 32px;
+    max-width: 182px;
+    background-color: #d3b000;
+    padding: 33px 32px;
+    margin-right: 3px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+.contact_country:before {
+    display: block;
+    content: "";
+    background-color: white;
+    height: 3px;
+    width: 31px;
+    margin-bottom: 46px;
+}
+
+.contact_description {
+    max-width: 360px;
+    font-size: 20px;
+    color: #323d43;
+    background-color: #f9f9f9;
+    padding: 48px 47px;
+    line-height: 32px;
+    margin-right: 1px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.contact_number {
+    color: white;
+    max-width: 230px;
+    background-color: black;
+    padding: 33px 32px;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+.contact_border:before {
+    display: block;
+    content: "";
+    height: 3px;
+    background-color: white;
+    width: 31px;
+    margin-bottom: 46px;
+}
+
+.contact_button {
+    text-align: center;
+    margin-bottom: 107px;
+
+}
+
+.contact_button a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #021725;
+    border: solid 1px black;
+    padding: 22px 58px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+

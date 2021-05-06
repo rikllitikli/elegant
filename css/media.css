@@ -287,6 +287,92 @@
 
 }
 
+
+
+
+.contact_header {
+    background-color: rgb(36, 47, 53, 70%);
+    padding: 14px 0 18px;
+
+}
+
+.contact_container {
+    max-width: 714px;
+}
+
+
+.contact_background {
+    background-image: none;
+    height: 127px;
+}
+
+.contact_section h3 {
+    font-size: 28px;
+    margin-bottom: 48px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+.contact_section h2 {
+    font-size: 90px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    margin-bottom: 159px;
+}
+
+.contact_flex_container {
+    display: block;
+    max-width: 670px;
+    margin: auto;
+    margin-bottom: 194px;
+}
+
+.contact_country {
+    max-width: 100%;
+    font-size: 46px;
+    line-height: 59px;
+    padding: 60px 61px 127px;
+}
+
+.contact_country:before, .contact_border:before {
+    display: block;
+    content: "";
+    height: 6px;
+    width: 58px;
+    margin-bottom: 88px;
+}
+
+.contact_flex_container img {
+    width: 99.5%;
+}
+
+.contact_description {
+    font-size: 30px;
+    max-width: 100%;
+    padding: 70px 93px 80px;
+    line-height: 47px;
+}
+
+.contact_number {
+    max-width: 90.3%;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 58px;
+    padding: 103px 64px 83px;
+}
+
+.contact_button {
+    margin-bottom: 190px;
+}
+
+.contact_button a {
+    font-size: 27px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    padding: 43px 104px;
+}
+
 @media only screen and (max-width: 360px) {
     .inex_background h1 {
         font-size: 55px;
