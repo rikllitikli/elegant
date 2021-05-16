@@ -16,7 +16,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .inex_header div a {
@@ -260,7 +259,6 @@
 
 .inex_button_More_From_Our_Blog {
     text-align: center;
-    margin-bottom: 162px;
 }
 
 .inex_button_More_From_Our_Blog a {
