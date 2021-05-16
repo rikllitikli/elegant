@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.inex_header {
+  position: absolute;
+  width: 100%;
+  padding-top: 16px; }
+
+.inex_container {
+  max-width: 1185px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.inex_header div a {
+  display: inline-block; }
+
+.menu {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  font-family: 'Open Sans';
+  font-weight: 600; }
+
+.inex_background {
+  background-image: url("../img/back.jpg");
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 80px; }
+
+.inex_background h1 {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  font-family: 'Open Sans';
+  font-weight: 300; }
+
+.inex_background h1 span {
+  font-family: 'Open Sans';
+  font-style: italic; }
+
+.inex_About_Yourself {
+  max-width: 770px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 163px; }
+
+.inex_question {
+  font-size: 13px;
+  color: #d4af37;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  margin-bottom: 22px;
+  text-align: center; }
+
+.inex_About_Yourself h2 {
+  color: rgba(2, 23, 37, 0.7);
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 55px; }
+
+.inex_Tell_The_World_About_Yourself {
+  color: rgba(2, 23, 37, 0.7);
+  font-size: 18px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 70px; }
+
+.inex_button {
+  border: solid 1px black;
+  text-decoration: none;
+  color: rgba(2, 23, 37, 0.7);
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 14px;
+  padding: 23px 48px; }
+
+.inex_work h2 {
+  color: rgba(2, 23, 37, 0.7);
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 92px; }
+
+.inex_photo {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 2%;
+  margin-bottom: 159px; }
+
+.inex_photo img {
+  margin-left: 4px;
+  margin-bottom: 3px;
+  width: 24%; }
+
+.inex_people {
+  max-width: 770px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 165px;
+  text-align: start; }
+
+.inex_people h2 {
+  color: rgba(2, 23, 37, 0.7);
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 57px; }
+
+.inex_The_Amazing_People_Behind_This {
+  color: rgba(2, 23, 37, 0.7);
+  font-size: 18px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.inex_Photo_name {
+  display: flex;
+  justify-content: space-between; }
+
+.inex_Tobias_Schneider {
+  background-color: #f9f9f9;
+  position: relative;
+  bottom: 4px;
+  padding: 20px 17px 48px; }
+
+.inex_Tobias_Schneider h4 {
+  font-size: 13px;
+  color: rgba(2, 23, 37, 0.7);
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  margin-bottom: 21px; }
+
+.inex_Tobias_Schneider h3 {
+  color: rgba(2, 23, 37, 0.7);
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-size: 21px;
+  margin-bottom: 37px; }
+
+.inex_Tobias_Schneider p {
+  color: rgba(2, 23, 37, 0.7);
+  font-size: 13px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  line-height: 25px;
+  max-width: 207px;
+  margin: auto;
+  padding-right: 15%; }
+
+.inex_last_post {
+  max-width: 770px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 162px;
+  text-align: start; }
+
+.inex_last_post h2 {
+  color: rgba(2, 23, 37, 0.7);
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 57px; }
+
+.inex_flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 84px; }
+
+.last_post img {
+  display: inline-block; }
+
+.inex_We_Like_to_Write {
+  background-color: #f9f9f9;
+  position: relative;
+  padding: 43px 40px 50px; }
+
+.inex_data {
+  color: rgba(2, 23, 37, 0.7);
+  font-size: 13px;
+  font-family: 'Open Sans';
+  font-weight: normal;
+  margin-bottom: 20px; }
+
+.inex_Your_space {
+  color: rgba(2, 23, 37, 0.7);
+  font-size: 30px;
+  font-family: 'Open Sans';
+  font-weight: normal;
+  margin-bottom: 33px; }
+
+.inex_We_Like_to_Write p {
+  color: rgba(2, 23, 37, 0.7);
+  font-size: 16px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  margin-bottom: 58px;
+  line-height: 28px; }
+
+.inex_button_read {
+  border: solid 1px black;
+  text-decoration: none;
+  color: rgba(2, 23, 37, 0.7);
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 14px;
+  padding: 18px 46px; }
+
+.inex_button_More_From_Our_Blog {
+  text-align: center;
+  margin-bottom: 162px; }
+
+.inex_button_More_From_Our_Blog a {
+  border: solid 1px black;
+  text-decoration: none;
+  color: rgba(2, 23, 37, 0.7);
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 14px;
+  padding: 23px 50px; }
+
+.inex_contact {
+  max-width: 770px;
+  margin: auto;
+  text-align: center; }
+
+.inex_contact h2 {
+  color: rgba(2, 23, 37, 0.7);
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 57px; }
+
+.inex_map {
+  position: relative;
+  max-width: 767px;
+  height: 295px; }
+
+.inex_feedback {
+  background-color: #f9f9f9;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 52px 0 47px;
+  width: 100%;
+  margin-bottom: 80px;
+  flex-wrap: wrap; }
+
+.inex_feedback_data {
+  width: 50%;
+  text-align: center; }
+
+.inex_feedback .inex_feedback_data:nth-child(2) {
+  margin-bottom: 97px; }
+
+.inex_map_class {
+  font-size: 13px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color: #505d68;
+  margin-bottom: 50px; }
+
+.inex_feedback_data p {
+  font-size: 19px;
+  color: #505d68;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  line-height: 34px; }
+
+footer {
+  background-color: #eeeeee;
+  padding: 41px 0 39px; }
+
+.footer {
+  max-width: 770px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between; }
+
+.footer p {
+  color: rgba(2, 23, 37, 0.7);
+  font-size: 16px;
+  font-family: 'Open Sans';
+  font-weight: 300; }
+
+/*# sourceMappingURL=new-style.css.map */
