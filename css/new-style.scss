@@ -414,12 +414,117 @@ footer {
 }
 
 .owl-dot.active span {
-
   background-color: white;
   width: 15px;
   height: 15px;
 }
 
+
+
+.ui-widget.ui-widget-content {
+  border: none;
+  min-width: 750px;
+}
+
+
+
+
+.ui-dialog .ui-dialog-titlebar {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding: 41px 209px;
+}
+
+.ui-dialog .ui-dialog-title {
+  float: none;
+}
+
+.facebook {
+  margin-right: 16px;
+}
+
+
+.ui-dialog .ui-dialog-content{
+  background-color: #fbfbfb;
+  padding: 43px 84px;
+}
+
+
+.enter_email {
+  display: inline-block;
+  max-width: 144px;
+  margin-right: 37px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 22px;
+  position: relative;
+  top: 13px;
+}
+
+.email {
+  display: inline-block;
+  width: 384px;
+  height: 60px;
+  padding-left: 10px;
+  border: solid 1px #b7b7b7;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-bottom: 40px;
+}
+
+.button_reset {
+  background-color: #cfcfcf;
+  padding: 21px 150px;
+  font-size: 24px;
+  color: black;
+  border: none;
+  margin-bottom: 29px;
+  display: block;
+  width: 100%;
+}
+
+
+.or {
+  font-size: 22px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.button_submit {
+  display: block;
+  background-color: #5173be;
+  padding: 21px 89px;
+  width: 100%;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+}
+
+.botton {
+  text-align: center;
+  max-width: 528px;
+  margin: auto;
+}
+
+
+.ui-dialog .ui-resizable-n {
+  display: none;
+}
+
+
+
+.ui-button-icon-only .ui-icon {
+  display: none;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+  display: none;
+}
 
 
 .blog_header {
